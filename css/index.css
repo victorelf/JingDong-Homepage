@@ -1,10 +1,4 @@
-/*
-* @Author: apple
-* @Date:   2017-07-26 23:27:21
-* @Last Modified by:   apple
-* @Last Modified time: 2017-07-27 14:30:23
-*/
-/* 中间分类模块开始 */
+/* 中间分类模块 */
 .grid {
 	height: 480px;
 }
@@ -13,14 +7,13 @@
 	height: 100%;
 	background-color: #6e6568;
 	color: #fff;
-	font-size: 14px;  /* 不是给字的，给 /  */
+	font-size: 14px;  
 	position: relative;
 }
 .ad {
 	width: 250px;
 	height: 480px;
-/* 	background-color: pink;
- */	position: absolute;
+	position: absolute;
 	top: 0;
 	left: -250px;
 }
@@ -32,16 +25,14 @@
 	width: 0;
 	height: 480px;
 	background: url(../images/ad-r.jpg);
-	/* z这个盒子做动画，所以给它添加过渡 */
 	transition: all 0.8s;
 }
 .ad:hover .ad-r {  
-	/* 鼠标经过 ad 这个广告大盒子的时候， 里面的这个叫 ad-r的盒子的宽度由0变为 990 */
 	width: 990px;
 }
 .grid-col1 a {
 	color: #fff;
-	font-size: 14px;  /* 是给链接文字  */
+	font-size: 14px;  
 	margin: 0 3px;
 }
 .grid-col1 a:hover {
@@ -54,7 +45,6 @@
 	padding-left: 12px;
 	height: 29px;
 	line-height: 26px;
-	/* margin-left: 12px; 同学们体会下 这里为什么不用 margin  就是因为下面有鼠标经过的效果*/
 }
 .grid-col1 ul li:hover {
 	background-color: #9c9698;
@@ -114,7 +104,7 @@
 	border-radius: 50%;
 	float: left;
 	margin: 4px;
-	cursor: pointer;  /* 鼠标经过li 的时候变成小手 */
+	cursor: pointer;  
 }
 .circle .current {
 	background-color: #f10215;
@@ -136,11 +126,11 @@
 	height: 60px;
 	line-height: 20px;
 	font-size: 12px;
-	white-space: nowrap;  /* 强制一行内显示 */
-	overflow: hidden;  /* 溢出隐藏 */
-	text-overflow: ellipsis; /* 超出的部分显示 省略号 */
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
 	color: #666;
-	padding-left: 60px;  /* 这里给padding 把文字挤过来 */
+	padding-left: 60px;  
 	position: relative;
 }
 .login-t a {
@@ -223,10 +213,10 @@
 .expand {
 	height: 209px;
 	background-color: #fff;
-	overflow: hidden; /* expand 这个宽度继承了 父亲 190宽度 */
+	overflow: hidden;
 }
 .expand ul {
-	width: 195px; /*  父亲是 190 但是里面的li 宽度超过了190 摆放不开 4个li 此时 让ul 宽度变大 */ 
+	width: 195px; 
 }
 .expand  li {
 	width: 47px;
